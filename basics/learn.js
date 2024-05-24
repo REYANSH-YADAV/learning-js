@@ -105,3 +105,32 @@
 
 // console.log(mydate.toString());
 // console.log(mydate.toDateString());
+
+// let mysym=Symbol("key1");
+// let person={
+//     "Full Name":"Reyansh Yadav",
+//     [mysym]:"mykey1",
+//     branch:"AI&DS",
+//     usn:"1NT21AD042",
+//     number:8178594612,
+    
+// }
+// console.log(person.name);
+// console.log(person["name"]);
+// console.log(person["Full Name"]);//can only access value like this else not possible
+
+// console.log(person[mysym]);
+
+// person.branch="AI&ML";
+// console.log(person.branch);
+
+// let obj1={1:"a",2:"b"};
+// let obj2={3:"c",4:"d"};
+// let obj3={...obj1,...obj2};
+// console.log(obj3);
+
+// function show(...num)
+// {
+//     return num;
+// }
+// console.log(show(200,300,400));
